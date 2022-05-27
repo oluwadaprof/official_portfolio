@@ -10,7 +10,7 @@ const About = () => {
   return (
     <section id='about' >
       <h5>Get to know</h5>
-      <h2>About Me</h2>
+      <h2>About Me &#128526;</h2>
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
@@ -40,7 +40,7 @@ const About = () => {
           <p>Lorem ipsum dolor sit amet consectetur,
              adipisicing elit. Porro dolore vel expedita blanditiis quo voluptatibus esse repellat culpa recusandae dignissimos necessitatibus perferendis veritatis, 
             similique et nesciunt nemo, quasi fuga molestiae?</p>
-            <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <a href="#contact" className='btn btn-primary'>Let's Talk &#128266;</a>
         </div>
       </div>
     </section>

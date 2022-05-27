@@ -6,33 +6,33 @@ const Services = () => {
   return (
     <section id='services'>
       <h5>What I Offer</h5>
-      <h2>Services</h2>
+      <h2>Services  &#128736;</h2>
 
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>Web Development</h3>
+            <h3>Web Development &#128187;</h3>
           </div>
 
           <ul className="service__list">
             <li>
-              <BsCheck2 className='service_list-icon' />
+              <p> &#9989;</p>
               <p>Lorem ipsum dolor sit amet consectetur elit.</p>
             </li>
             <li>
-              <BsCheck2 className='service_list-icon' />
+              <p> &#9989;</p>
               <p>Lorem ipsum dolor sit amet consectetur elit.</p>
             </li>
             <li>
-              <BsCheck2 className='service_list-icon' />
+              <p> &#9989;</p>
               <p>Lorem ipsum dolor sit amet consectetur elit.</p>
             </li>
             <li>
-              <BsCheck2 className='service_list-icon' />
+              <p> &#9989;</p>
               <p>Lorem ipsum dolor sit amet consectetur elit.</p>
             </li>
             <li>
-              <BsCheck2 className='service_list-icon' />
+              <p> &#9989;</p>
               <p>Lorem ipsum dolor sit amet consectetur elit.</p>
             </li>
           </ul>
