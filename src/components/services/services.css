@@ -1,7 +1,6 @@
-.service__container {
+.services__container {
     display: grid;
-    /* grid-template-columns: repeat(3, 1fr); */
-    gap: 3rem;
+    grid-template-columns: 1fr 1fr;
 }
 
 .service {
@@ -9,7 +8,7 @@
     border-radius: 0 0 2rem 2rem;
     border: 1px solid var(--primary-color);
     height: fit-content;
-    width: 20rem;
+    width: 23rem;
     transition: var(--transition);
     position: relative;
     left: 50%;
@@ -58,8 +57,9 @@
 /* MEDIA QUERIES (TABLET DEVICES) */
 
 @media screen and (max-width: 1024px) {
-    .service__container {
-        grid-template-columns: 1fr;
+    .services__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         gap: 2rem;
     }
     .service {
@@ -71,7 +71,8 @@
 /* MEDIA QUERIES (PHONE DEVICES) */
 
 @media screen and (max-width: 600px) {
-    .service__container {
+    .services__container {
+        display: grid;
         grid-template-columns: 1fr;
         gap: 1.5rem;
     }

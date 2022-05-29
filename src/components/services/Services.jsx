@@ -3,6 +3,52 @@ import './services.css'
 import { BsCheck2 } from "react-icons/bs";
 
 const Services = () => {
+  const webListData = [
+    {
+      id:1,
+      skills:'react.js',
+    },
+    {
+      id: 2,
+      skills: 'Redux',
+    },
+    {
+      id: 3,
+      skills: 'CSS',
+    },
+    {
+      id: 4,
+      skills: 'Vanilla js',
+    },
+    {
+      id: 5,
+      skills: 'Chakra UI',
+    }
+  ]
+
+  const appListData = [
+    {
+      id: 1,
+      skills: 'react-native',
+    },
+    {
+      id: 2,
+      skills: 'Redux',
+    },
+    {
+      id: 3,
+      skills: 'react-icons',
+    },
+    {
+      id: 4,
+      skills: 'chart.js',
+    },
+    {
+      id: 5,
+      skills: 'context-api',
+    }
+  ]
+
   return (
     <section id='services'>
       <h5>What I Offer</h5>
@@ -13,28 +59,23 @@ const Services = () => {
           <div className="service__head">
             <h3>Web Development &#128187;</h3>
           </div>
-
           <ul className="service__list">
-            <li>
+            {webListData.map(data => <li key={data.id}>
               <p> &#9989;</p>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
+              <p>{data.skills}</p>
+            </li>)}
+          </ul>
+        </article>
+
+        <article className="service">
+          <div className="service__head">
+            <h3>Mobile App Development &#128241;</h3>
+          </div>
+          <ul className="service__list">
+            {appListData.map(data => <li key={data.id}>
               <p> &#9989;</p>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <p> &#9989;</p>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <p> &#9989;</p>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <p> &#9989;</p>
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-            </li>
+              <p>{data.skills}</p>
+            </li>)}
           </ul>
         </article>
       </div>
