@@ -5,18 +5,19 @@ import { ContactData } from './ContactData'
 
 const Contact = () => {
   const form = useRef();
- 
 
   const sendEmail = (e) => {
     e.preventDefault();
-    e.target.reset();
 
     emailjs.sendForm('service_58opvza', 'template_0fmcqn7', form.current, 'kWxi_dTDg52yCrF9v')
       .then((result) => {
         console.log(result.text);
       }, (error) => {
         console.log(error.text);
+        
       });
+
+    e.target.reset();
   };
 
 
