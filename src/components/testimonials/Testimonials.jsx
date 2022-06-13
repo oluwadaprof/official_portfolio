@@ -31,11 +31,7 @@ const Testimonials = () => {
           </div>
           <h5>{data.name}</h5>
           <small className="client__review">
-            Lorem ipsum dolor sit amet
-            consectetur adipisicing elit.
-            Quis consectetur aliquam, laboriosam
-            earum, voluptate distinctio eius veniam, incidunt culpa doloribus eos maiores accusantium. Harum similique expedita
-            at deleniti quae quibusdam?
+          He's the best out there.
           </small>
         </SwiperSlide>)}
 

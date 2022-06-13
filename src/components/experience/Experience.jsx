@@ -1,10 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './experience.css';
 import { BsFillPatchCheckFill } from "react-icons/bs";
-import tobi from '../../assets/tobi-removebg-preview.png'
+// import tobi from '../../assets/tobi-removebg-preview.png'
 
 const Experience = () => {
-  const [swipe, setSwipe] = useState(false)
+  // const [swipe, setSwipe] = useState(false)
   return (
     <section id='experience'>
       <h5>What Skills I Have</h5>
