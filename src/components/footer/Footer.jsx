@@ -13,14 +13,14 @@ const Footer = () => {
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#services">Services</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
+        {/* <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#testimonials">Testimonials</a></li> */}
         <li><a href="#contact">Contact</a></li>
     </ul>
     <div className="footer__socials">
-      <a href="www.facebook.com"><FaLinkedinIn/></a>
-      <a href="www.instagram.com"><FiGithub/></a>
-        <a href="www.twitter.com"><IoLogoTwitter/></a>
+        <a href="https://www.linkedin.com/in/tobiloba-adeeko-513aba175"><FaLinkedinIn/></a>
+        <a href="https://github.com/oluwadaprof"><FiGithub/></a>
+        <a href="https://twitter.com/oluwadaprof?t=1SjO-aSTh_3DhgwuVo4JZA&s=08"><IoLogoTwitter/></a>
     </div>
     <div className="footer__copyright">
       <small>&copy; Adeeko Tobiloba, All rights reserved</small>
