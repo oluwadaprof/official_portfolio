@@ -47,7 +47,7 @@ footer a {
     border-color: var(--bg-color);
 }
 
-.footer__copywright {
+.footer__copyright {
     margin-bottom: 4rem;
     color: var(--bg-color);
 }

@@ -19,6 +19,7 @@ const Testimonials = () => {
       <Swiper
         modules={[ Pagination,  A11y]}
         spaceBetween={40}
+        autoplay
         slidesPerView={1}
         navigation
         pagination={{ clickable: true }}

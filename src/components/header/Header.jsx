@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import CTA from './CTA'
 import './header.css';
 import ME from '../../assets/tobi-removebg-preview.png';
@@ -9,9 +9,9 @@ import { FcInternal } from "react-icons/fc";
 
 const Header = () => { 
 
-  const [showIcon, setShowIcon] = useState(false)
+  // const [showIcon, setShowIcon] = useState(false)
   return (
-    <header>
+    <header id='home'>
       <div className="container header__container">
         <h5>Hello &#128075; I'm</h5>
         <h1>Isreal Adeeko</h1>

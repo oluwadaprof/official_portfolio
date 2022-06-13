@@ -1,6 +1,6 @@
 import React from 'react'
 import './services.css'
-import { BsCheck2 } from "react-icons/bs";
+// import { BsCheck2 } from "react-icons/bs";
 
 const Services = () => {
   const webListData = [
@@ -18,7 +18,7 @@ const Services = () => {
     },
     {
       id: 4,
-      skills: 'Vanilla js',
+      skills: 'Next.js',
     },
     {
       id: 5,

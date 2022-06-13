@@ -1,14 +1,14 @@
 import React from 'react'
-import { BsLinkedin } from 'react-icons/bs';
+import { BsLinkedin,  BsTwitter } from 'react-icons/bs';
 import { BsGithub } from 'react-icons/bs';
-import { BsDribbble } from 'react-icons/bs';
+
 
 const HeaderSocials = () => {
     return (
         <div className='header__socials' >
-            <a href="https://linkedIn.com " target='_blank'><BsLinkedin/></a>
-            <a href="https://github.com " target='_blank'><BsGithub/></a>
-            <a href="https://dribble.com " target='_blank'><BsDribbble/></a>
+            <a href="https://www.linkedin.com/in/tobiloba-adeeko-513aba175"><BsLinkedin/></a>
+            <a href="https://github.com/oluwadaprof" ><BsGithub/></a>
+            <a href="https://twitter.com/oluwadaprof?t=1SjO-aSTh_3DhgwuVo4JZA&s=08"><BsTwitter/></a>
         </div>
     )
 }
